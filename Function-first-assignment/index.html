@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Function library example</title>
+  <style>
+   
+  </style>
+  </head>
+<body>
+
+  
+  <script>
+    
+      function capitalise (word) {
+       return word.charAt(0).toUpperCase() + word.slice(1);
+        
+       }
+
+    console.log(capitalise("habitat"));
+
+    let test2 = capitalise ("howAbouTthIs");
+    
+    console.log(test2);
+
+    let test3 = capitalise ("HOWABOUTHIS");
+
+    console.log(test3);
+
+    let anything = capitalise ("a load of stuff 123")
+
+    console.log(anything);
+   
+  console.log(capitalise ("this thing"));
+
+  function lastLetter (word) {
+    return word.slice(-1);
+  }
+
+  console.log(lastLetter ("trythisone"));
+
+  console.log(lastLetter ("anothertry"));
+
+  
+
+
+
+  </script>
+</body>
+</html>
